@@ -1,0 +1,23 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>AI Futures Goa — The Journey</title><meta name="description" content="AI Futures Goa. Youth. Innovation. Opportunity. Coming soon. Hosted by S.S. Dempo College of Commerce and Economics (Autonomous).">
+<link rel="stylesheet" href="./vendor/maplibre-gl.css"><link rel="stylesheet" href="./css/style.css"></head><body>
+<canvas id="globe" aria-hidden="true"></canvas><div id="map" aria-label="Satellite map of Panaji, Goa"></div><div id="labels" aria-hidden="true"></div>
+<header class="nav"><a href="#" class="brand">AI FUTURES GOA</a><span><button class="lnk" data-open="partner">Become a partner</button><button class="lnk" data-open>Join the waitlist</button></span></header>
+<div id="hud" aria-live="off"></div>
+<div class="ctl"><button id="zin" aria-label="Zoom in">+</button><button id="zout" aria-label="Zoom out">−</button><button id="reset" class="wide">RETURN TO GLOBAL VIEW</button></div>
+<aside id="panel" hidden><button id="pc" aria-label="Close panel">✕</button><h3 id="pt"></h3><p id="pd"></p><small id="pn"></small></aside>
+<div class="acts">
+<section class="act" data-a="0"><p class="k">37.7749° N, 122.4194° W</p><h1>SAN FRANCISCO, USA.</h1><p>Every revolution begins somewhere.</p><button class="btn" id="begin">BEGIN THE JOURNEY</button></section>
+<section class="act" data-a="1"><h2>THE GLOBAL NETWORK.</h2><p>Nine points, lit one by one. Tap a marker to read more.</p><p class="note">Geographical references only. No organisation in these cities is a partner of this event.</p></section>
+<section class="act" data-a="2"><h2>IDEAS TRAVEL ACROSS BORDERS.</h2><h2 class="d">INNOVATION HAS NO BOUNDARIES.</h2><p id="dist" class="k"></p></section>
+<section class="act" data-a="3"><h2>INDIA.</h2><p>A new generation is building what comes next.</p><p class="note">Mumbai, Bengaluru and New Delhi are shown as geographical reference points.</p></section>
+<section class="act" data-a="4"><p class="k">15.4909° N, 73.8278° E</p><h2>DESTINATION IDENTIFIED.</h2><h1>PANAJI, GOA, INDIA.</h1><p>A NEW DESTINATION FOR IDEAS, INNOVATION AND OPPORTUNITY.</p></section>
+<section class="act" data-a="5"><p class="note top">Five nodes are conceptual programme areas, not venue locations. Tap one.</p>
+<div class="fin"><h1>AI FUTURES GOA.</h1><p>YOUTH. INNOVATION. OPPORTUNITY.</p><p class="k">COMING SOON.</p><p>Hosted by S.S. Dempo College of Commerce and Economics (Autonomous).</p><div class="cta"><button class="btn" data-open>JOIN THE WAITLIST</button><button class="btn ghost" data-open="partner">BECOME A PARTNER</button><button class="btn ghost" id="explore">EXPLORE THE SUMMIT</button></div>
+<p class="note">The hackathon starts on Day 1 and continues on Day 2. The schedule is provisional and subject to the Principal's approval. Prospective organisations are unconfirmed.</p></div></section></div>
+<div id="track" aria-hidden="true"></div><p id="scrollhint" class="k">SCROLL TO TRAVEL</p>
+<dialog id="dlg" aria-labelledby="dh"><form id="f" novalidate><header><h2 id="dh">BECOME PART OF THE JOURNEY.</h2><button type="button" class="x" id="close" aria-label="Close">✕</button></header>
+<div class="prog" id="prog"></div><h3 id="dt"></h3><div id="body" aria-live="polite"></div><p id="err" role="alert"></p><footer><button type="button" class="btn ghost" id="back">Back</button><button type="submit" class="btn" id="next">Continue</button></footer></form></dialog>
+<dialog id="priv"><h2>Privacy notice</h2><p>We collect the details you enter only to contact you about AI Futures Goa and the activities you select. We do not sell your data. <em>Replace this placeholder with the college's official notice before launch.</em></p><button class="btn" onclick="priv.close()">Close</button></dialog>
+<script src="./vendor/three.min.js"></script><script src="./vendor/gsap.min.js"></script><script src="./vendor/ScrollTrigger.min.js"></script><script src="./vendor/maplibre-gl.js"></script>
+<script src="./js/config.js"></script><script src="./js/globe.js"></script><script src="./js/citymap.js"></script><script src="./js/journey.js"></script><script src="./js/waitlist.js"></script></body></html>
